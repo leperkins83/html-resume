@@ -8,22 +8,22 @@
   <style>
     table{
       width: 100%;
-      max-width: 800px;
+      max-width: 900px;
+      border-bottom: 1px solid #bbbec1;
     }
     td{
       padding-bottom: 2rem;
       margin-left: 1rem;
-    }
-    tr {
 
     }
+
     .right {
       text-align: right;
     }
     .italics {
       font-style: italic;
       font-weight: bold;
-      color: red;
+      color: #cc0404;
       width: 25%;
     }
     .bullets li {
@@ -37,24 +37,38 @@
     .padding-bottom {
       padding-bottom: 1rem;
     }
+    .red {
+      color: #cc0404;
+    }
+
+.float-right {
+  float: right;
+  color: #bbbec1;
+}
+
+.td-padding {
+  padding-left: 50px;
+}
+
   </style>
 </head>
 <body>
+
   <table>
-  <tr>
-  <td><h1>Lindsey Perkins</h1></td>
-  <td class="right">
-    <div class="">
-      601-529-3535
-    </div>
-    <div class="">
-      perkinsle83@gmail.com
-    </div>
-    <div class="">
-      lperkins.fvi-grad.com
-    </div>
-  </td>
-  </tr>
+      <tr>
+      <td><h1>Lindsey Perkins</h1></td>
+      <td class="right">
+        <div class="">
+          601-529-3535
+        </div>
+        <div class="red">
+          perkinsle83@gmail.com
+        </div>
+        <div class="red">
+          lperkins.fvi-grad.com
+        </div>
+      </td>
+      </tr>
   </table>
 
   <table>
@@ -68,6 +82,9 @@
         </ul>
       </td>
     </tr>
+    </table>
+
+    <table>
     <tr>
       <td class="italics">Skills</td>
       <td class="bullets">
@@ -78,34 +95,43 @@
         </ul>
       </td>
     </tr>
+    </table>
+
+    <table>
     <tr>
       <td class="italics">Education</td>
-      <td>
-        <div class="bold">
-          Florida Vocational Institute
+      <td class="td-padding">
+        <div class="padding-bottom">
+          <span class="bold">Florida Vocational Institute</span>
         </div>
         <div class="">
           Miami, FL
         </div>
         <div class="padding-bottom">
-          Diploma in Web Application Development Engineer
+          <span>Diploma in Web Application Development Engineer</span>
+          <span class="float-right">December 2016 - December 2017</span>
         </div>
-        <div class="bold">
-          U.S. Army Signal Corps Regiment
+        <div class="padding-bottom">
+          <span class="bold">U.S. Army Signal Corps Regiment</span>
         </div>
-        <div class="">
+        <div>
           Ft. Gordon, GA
         </div>
-        <div class="">
-          Diploma in Microwave Systems Operator/Maintainer
+        <div>
+          <span>Diploma in Microwave Systems Operator/Maintainer</span>
+          <span class="float-right">January 2010 - June 2010</span>
         </div>
       </td>
     </tr>
+    </table>
+
+    <table>
     <tr>
       <td class="italics">Professional Experience</td>
-      <td>
-        <div class="bold">
-          Telecommunications Assistant
+      <td class="td-padding">
+        <div class="padding-bottom">
+          <span class="bold">Telecommunications Assistant</span>
+          <span class="float-right">January 2017 - Present</span>
         </div>
         <div class="">
           Operates and monitors the Defense Red Switch Network (DRSN) in support of a Combatant Commander's joint headquarters. Periodically tests and evaluates systems performance, serviceability, and maintenance techniques. Serves as a source of technical expertise in preventing and resolving maintenance problems in the DRSN, which has five circuits with connectivity up to top secret/sensitive compartmented information (TS/SCI).
